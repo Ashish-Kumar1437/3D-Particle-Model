@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+Canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.container{
+    position: relative;
+    z-index: 9;
+    color: aqua;
+    width: 100%;
+    top:60%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    padding-top: 20px; 
+    position: relative;
+}
+span{
+    /* content: ''; */
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-bottom: 2px solid aqua;
+    width: 100%;
+    transform: scaleX(1);
+
+}
+p{
+    font-size: 1.5rem ;
+    width: 160px;
+    text-align: center;
+    padding-top: 10px;
+}
+h1{
+    font-size: 2rem;
+}
+p,h1{
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}

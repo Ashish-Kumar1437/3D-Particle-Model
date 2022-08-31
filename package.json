@@ -1,11 +1,11 @@
 {
   "dependencies": {
+    "gsap": "^3.11.0",
     "three": "^0.143.0"
   },
   "name": "3d-particle",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
