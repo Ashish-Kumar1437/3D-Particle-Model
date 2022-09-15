@@ -11,7 +11,7 @@ import img5 from '../img/5.jpg'
 import img6 from '../img/6.jpg'
 import img7 from '../img/7.jpg'
 import img8 from '../img/8.jpg'
-import img9 from '../img/9.png'
+// import img9 from '../img/9.png'
 
 const renderer=new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth,window.innerHeight);
@@ -59,7 +59,7 @@ const loader=new THREE.TextureLoader();
 
 //imgs
 const imgGeometry=new THREE.PlaneBufferGeometry(10,10.3);
-const images=[img0,img1,img2,img3,img4,img5,img6,img7,img8,img9]
+const images=[img0,img1,img2,img3,img4,img5,img6,img7,img8]
 const imgObj=[];
 for(let i=0;i<9;i++){
     const imgMaterial=new THREE.MeshBasicMaterial({
